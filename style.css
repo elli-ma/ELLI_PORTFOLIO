@@ -22,6 +22,17 @@ body {
     color: red;
 }
 
+hr {
+    color: black;
+}
+
+h1 {
+    font-family: "Proza Libre", sans-serif;
+    margin: 0;
+    margin-bottom: var(--spacing-2);
+    font-size: 2.6 em;
+}
+
 h2 {
     font-family: "Proza Libre", sans-serif;
     margin: 0;
@@ -36,6 +47,7 @@ body {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    font-size: 1.2em;
 }
 
 nav {
@@ -58,9 +70,8 @@ nav {
 }
 
 .portrait {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
+    width: 100%;
+    height: auto;
     flex-shrink: 0;
 }
 
@@ -118,10 +129,6 @@ details {
     cursor: pointer;
 }
 
-summary {
-    list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
-}
-
 footer {
     margin-top: auto;
     padding: var(--spacing-2) 0;
@@ -142,10 +149,6 @@ a {
     color: var(--font-color);
     text-decoration: none;
     font-weight: 600;
-}
-
-#logo {
-    margin: 0;
 }
 
 #skills-container {
