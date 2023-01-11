@@ -5,102 +5,122 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Elli-Ma</title>
-    <link rel="stylesheet" href="./style.css" />
+    <!-- <link rel="stylesheet" href="./style.css" /> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
 </head>
 
 <body>
+    <div class="container-sm fs-5 p-3">
 
-    <nav>
-        <ul class="navigation-items">
-            <li class="navigation-item"><a href="#about-me">About Me</a></li>
-            <li class="navigation-item"><a href="https://drive.google.com/file/d/1dAFQMGSI3hByr0uGizOSUYcSG8Pxclg0/view?usp=sharing">Resume</a></li>
-            <li class="navigation-item"><a href="https://github.com/elli-ma">Github</a></li>
 
-        </ul>
-    </nav>
-    <hr>
-    <main>
-        <section class="foto">
-            <div class="head flex f-row">
-                <h1 class="name">Elvira<br>Akhmetzyanova</h1>
+
+        <nav class=" p-3">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link text-body-secondary fw-semibold" aria-current="page" href="#about-me">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-body-secondary fw-semibold"
+                        href="https://drive.google.com/file/d/1dAFQMGSI3hByr0uGizOSUYcSG8Pxclg0/view?usp=sharing">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-body-secondary fw-semibold" href="https://github.com/elli-ma">Github</a>
+                </li>
+            </ul>
+        </nav>
+
+        <hr/>
+        
+        <div class="row d-flex justify-content-between">
+            <div class="col p-3">
+                <h1>Elvira<br>Akhmetzyanova</h1>
+            </div>
+            <div class="col p-3">
                 <h4>Junior Frontend<br>Saint Petersburg</h4>
             </div>
-            <img class="portrait"></img>
-        </section>
+        </div>
 
-        <section id="about-me" class="about-me-pad2">
-            <h2>About Me</h2>
-            <div class="about-me-container">
-                <div class="about-me-text-container">
-                    <p>
-                        Я начинающий Frontend-разработчик, интересуюсь Javascript, Node.Js и React.
-                    </p>
-                    <p>
-                        По образованию я преподаватель информатики, закончила институт в 2014 году, но долгое время занималась дизайном одежды.
-                    </p>
-                    <p>
-                        Hello! I'm Elli. I'm a beginner frontend developer. I'm interested in Javascript, CSS and React, as well as Nodejs.
-                    </p>
-                </div>
+
+        
+
+    <img class="img-fluid " src="1.jpg" alt="">
+
+
+
+    <section class="about-me-pad2 py-3">
+        <h2 class="py-4">About Me</h2>
+        <div class="">
+            <div class="">
+                <p>
+                    Я начинающий Frontend-разработчик, интересуюсь Javascript, Node.Js и React.
+                </p>
+                <p>
+                    По образованию я преподаватель информатики, закончила институт в 2014 году, но долгое время
+                    занималась дизайном одежды.
+                </p>
+                <p>
+                    Hello! I'm Elli. I'm a beginner frontend developer. I'm interested in Javascript, CSS and React,
+                    as well as Nodejs.
+                </p>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="projects pad2">
-            <h2>Projects</h2>
-            <ul class="projects-list">
-                <li>
-                    <!--<video autoplay loop muted controls width="100%"><source src="1.mp4"> </video>-->
-                    <a href="https://elli-ma.github.io/to-do-list/">To Do List</a>
-                    <img class="projects" src="5.jpg" alt="To Do List">
-                </li>
-                <li>
-                    <!--<video autoplay loop muted controls width="100%"> <source src="1.mp4"></video>-->
-                    <a href="https://elli-ma.github.io/krestiki/">Tic Tac Toe</a>
-                    <img class="projects" src="6.jpg" alt="Tic Tac Toe">
-                </li>
-            </ul>
-        </section>
+    <section class="projects pad2">
+        <h2 class="py-4">Projects</h2>
+       
+            
+                <!--<video autoplay loop muted controls width="100%"><source src="1.mp4"> </video>-->
+                <a  class="nav-link text-body-secondary fw-semibold p-3 text-center" href="https://elli-ma.github.io/to-do-list/">To Do List</a>
+                <img class="img-fluid border" src="5.jpg" alt="To Do List">
+   
+                <!--<video autoplay loop muted controls width="100%"> <source src="1.mp4"></video>-->
+                <a class="nav-link text-body-secondary fw-semibold p-3 text-center" href="https://elli-ma.github.io/krestiki/">Tic Tac Toe</a>
+                <img class="img-fluid border" src="6.jpg" alt="Tic Tac Toe">
+       
+       
+    </section>
 
-        <section class="skills pad2">
-            <h2>Skills</h2>
-            <ul class="skills-list">
-                <li>
-                    <p>Frontend Development</p>
-                </li>
-                <li>
-                    <p>CSS</p>
-                </li>
-                <li>
-                    <p>Javascript</p>
-                </li>
-                <li>
-                    <p>React</p>
-                </li>
-                <li>
-                    <p>Nodejs</p>
-                </li>
-                <li>
-                    <p>English – Beginner</p>
-                </li>
-
-            </ul>
-            </div>
-        </section>
-        <section class="education pad2">
-            <h2>Education</h2>
-            <h3>Chelyabinsk State Pedagogical University (ЮУрГГПУ) 2014</h3>
-            <p>Профессиональное обучение (Информатика, вычислительная техника и компьютерные технологии)</p>
-        </section>
+    <section class="row " >
+        <h2 class="p-4">Skills</h2>
+       
+                <div class="col border p-2 m-1">Frontend Development</div>
+                <div class="col border p-2 m-1">Css</div>
+                <div class="col border p-2 m-1">JavaScript</div>
+                <div class="col border p-2 m-1">React</div>
+       
+    
+    
+    
+    </section>
+    <section >
+        <h2 class="py-4">Education</h2>
+        <h4>Chelyabinsk State Pedagogical University (ЮУрГГПУ) 2014</h4>
+        <p>Профессиональное обучение (Информатика, вычислительная техника и компьютерные технологии)</p>
+    </section>
     </main>
-    <hr class="end">
+    <hr class="p-4"> 
+
+
 
     <footer>
-        <a href="mailto: elli9225@gmail.com" class="mail">elli9225@gmail.com</a>
+        <a class="nav-link text-body-secondary fw-semibold p-3 text-center" href="mailto: elli9225@gmail.com" >elli9225@gmail.com</a>
 
     </footer>
-    <script src="script.js">
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
     </script>
+
+    </div>
+        </div>
+
+
 
 </body>
 
